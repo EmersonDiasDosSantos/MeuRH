@@ -23,7 +23,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.CrossCutting
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Tests", "4.Tests", "{9425FC29-D812-4D69-B7AE-D638F643D00C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeuRhTests", "MeuRhTests\MeuRhTests.csproj", "{DFAA6DCA-90CE-4A32-A133-6153A72441F3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeuRhTests", "tests\MeuRhTests\MeuRhTests.csproj", "{DFAA6DCA-90CE-4A32-A133-6153A72441F3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
