@@ -1,0 +1,12 @@
+C:\projetos\MeuRH\MeuRH\src\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\projetos\MeuRH\MeuRH\src\Domain\bin\Debug\net8.0\Domain.dll
+C:\projetos\MeuRH\MeuRH\src\Domain\bin\Debug\net8.0\Domain.pdb
+C:\projetos\MeuRH\MeuRH\src\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
+C:\projetos\MeuRH\MeuRH\src\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\projetos\MeuRH\MeuRH\src\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\projetos\MeuRH\MeuRH\src\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\projetos\MeuRH\MeuRH\src\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\projetos\MeuRH\MeuRH\src\Domain\obj\Debug\net8.0\Domain.dll
+C:\projetos\MeuRH\MeuRH\src\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\projetos\MeuRH\MeuRH\src\Domain\obj\Debug\net8.0\Domain.pdb
+C:\projetos\MeuRH\MeuRH\src\Domain\obj\Debug\net8.0\ref\Domain.dll
