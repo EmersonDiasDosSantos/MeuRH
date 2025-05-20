@@ -1,8 +1,8 @@
-using Infrastructure.CrossCutting.Data.Context;
-using Microsoft.EntityFrameworkCore;
 using Domain.RepositoryInterfaces;
+using Infrastructure.CrossCutting.Data.Context;
 using Infrastructure.CrossCutting.Data.Repository;
-using Domain.Commands;
+using Microsoft.EntityFrameworkCore;
+using Services.Extension;
 
 namespace Services
 {
@@ -12,17 +12,13 @@ namespace Services
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            builder.Services.AddControllers();
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+            builder.Services.AddMediatorWithValidation();
+
             builder.Services.AddTransient<IUserRepository, UserRepository>();
 
-            builder.Services.AddMediatR(cfg =>
-            {
-                cfg.RegisterServicesFromAssembly(typeof(CreateUserCommand).Assembly);
-            });
-
-            builder.Services.AddDbContext<AppDbContext>(options =>  options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+            builder.Services.AddDbContext<AppDbContext>(options => options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
             var app = builder.Build();
 
@@ -37,6 +33,8 @@ namespace Services
             app.UseAuthorization();
 
             app.MapControllers();
+
+
 
             app.Run();
         }
