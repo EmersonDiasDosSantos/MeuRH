@@ -21,6 +21,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.2.Infrastructure.CrossCut
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.CrossCutting.Data", "src\Infrastructure\Infrastructure.CrossCutting.Data\Infrastructure.CrossCutting.Data.csproj", "{3629470A-22D0-4399-B728-29C3E3A34DEA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.Tests", "4.Tests", "{9425FC29-D812-4D69-B7AE-D638F643D00C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MeuRhTests", "MeuRhTests\MeuRhTests.csproj", "{DFAA6DCA-90CE-4A32-A133-6153A72441F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +47,10 @@ Global
 		{3629470A-22D0-4399-B728-29C3E3A34DEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3629470A-22D0-4399-B728-29C3E3A34DEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3629470A-22D0-4399-B728-29C3E3A34DEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFAA6DCA-90CE-4A32-A133-6153A72441F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFAA6DCA-90CE-4A32-A133-6153A72441F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFAA6DCA-90CE-4A32-A133-6153A72441F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFAA6DCA-90CE-4A32-A133-6153A72441F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -54,6 +62,7 @@ Global
 		{703DC5BE-4552-4E8D-91A1-98957DE0CC76} = {838AC893-126D-4E03-B624-5648A9AF12CD}
 		{1B00AD92-8B2A-43FA-BABA-70FBCFEA672D} = {838AC893-126D-4E03-B624-5648A9AF12CD}
 		{3629470A-22D0-4399-B728-29C3E3A34DEA} = {703DC5BE-4552-4E8D-91A1-98957DE0CC76}
+		{DFAA6DCA-90CE-4A32-A133-6153A72441F3} = {9425FC29-D812-4D69-B7AE-D638F643D00C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B0C9ACE7-2F3F-49A1-8F2F-B87F0612AD25}
